@@ -69,29 +69,35 @@ canonifyurls = true
   url = "/"
 [[menu.main]]
   weight = 2
-  identifier = "categories"
-  name = "文章分類"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-bookmark\" aria-hidden=\"true\"></i>"
-  url = "/categories"
-[[menu.main]]
-  weight = 3
-  identifier = "tags"
-  name = "文章標籤"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
-  url = "/tags"
-[[menu.main]]
-  weight = 4
-  identifier = "archives"
-  name = "所有文章"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
-  url = "/archives"
-[[menu.main]]
-  weight = 5
   identifier = "product"
   name = "研選商品"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-store\" aria-hidden=\"true\"></i>"
   #url = "https://shopee.tw/htchou2395"
   url = "/products"
+[[menu.main]]
+  weight = 3
+  identifier = "recipes"
+  name = "家常食譜"
+  pre = "<i class=\"sidebar-button-icon fas fa-light fa-utensils\" aria-hidden=\"true\"></i>"
+  url = "/categories/食譜"
+[[menu.main]]
+  weight = 4
+  identifier = "categories"
+  name = "文章分類"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-bookmark\" aria-hidden=\"true\"></i>"
+  url = "/categories"
+[[menu.main]]
+  weight = 5
+  identifier = "tags"
+  name = "文章標籤"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
+  url = "/tags"
+[[menu.main]]
+  weight = 6
+  identifier = "archives"
+  name = "所有文章"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
+  url = "/archives"
 [[menu.main]]
   weight = 6
   identifier = "about-us"
@@ -122,7 +128,7 @@ canonifyurls = true
 [[menu.misc]]
   weight = 1
   identifier = "rss"
-  name = "RSS"
+  name = "RSS訂閱"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-rss\" aria-hidden=\"true\"></i>"
   url = "/index.xml"
 
